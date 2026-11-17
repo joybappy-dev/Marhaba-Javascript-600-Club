@@ -30,3 +30,8 @@ function question3() {
 
     console.log(arr === arr2, 'q3')
 }
+
+
+function question4(num, bool){
+    console.log(num == bool)
+}
