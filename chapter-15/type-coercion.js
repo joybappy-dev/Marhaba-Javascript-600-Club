@@ -40,3 +40,11 @@ function question5() {
     console.log('' == false)
 }
 
+function question6(){
+    if(null === undefined){
+        console.log("equal")
+    }
+    else{
+        console.log("not equal")
+    }
+}
