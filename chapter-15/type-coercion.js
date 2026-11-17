@@ -3,15 +3,30 @@
  */
 
 // question 1
-if (true == 1) {
-    // console.log("same");
-} else {
-    // console.log("different");
-};
+function question1() {
+    if (true == 1) {
+        console.log("same");
+    } else {
+        console.log("different");
+    };
+}
+
 
 // question 2
-const object1 = {}
-const object2 = {}
+function question2() {
+    const object1 = {}
+    const object2 = {}
 
-console.log(object1===object2)
-// object1 and object2 are not same because they are non primitive so they are compared by their refference in memory.
+    console.log(object1 === object2)
+
+    // object1 and object2 are not same because they are non primitive so they are compared by their refference in memory.
+}
+
+
+// question 3
+function question3() {
+    const arr = ['a', 'b', 'c']
+    const arr2 = arr
+
+    console.log(arr === arr2, 'q3')
+}
