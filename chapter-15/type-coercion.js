@@ -2,7 +2,6 @@
  * == এর বেইজ্জতি Type coercion
  */
 
-// question 1
 function question1() {
     if (true == 1) {
         console.log("same");
@@ -11,8 +10,6 @@ function question1() {
     };
 }
 
-
-// question 2
 function question2() {
     const object1 = {}
     const object2 = {}
@@ -23,7 +20,6 @@ function question2() {
 }
 
 
-// question 3
 function question3() {
     const arr = ['a', 'b', 'c']
     const arr2 = arr
@@ -36,15 +32,31 @@ function question4(num, bool) {
     console.log(num == bool)
 }
 
+
 function question5() {
     console.log('' == false)
 }
 
-function question6(){
-    if(null === undefined){
+
+function question6() {
+    if (null === undefined) {
         console.log("equal")
     }
-    else{
+    else {
         console.log("not equal")
     }
+}
+
+
+function question7() {
+    if (1 == '1') {
+        console.log("equal")
+    }
+    else {
+        console.log("not equal")
+    }
+
+    /**
+     * 1 == '1' because first javascript will convert string '1' into a number and then it will copmare
+     */
 }
