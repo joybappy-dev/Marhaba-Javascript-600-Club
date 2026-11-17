@@ -32,6 +32,11 @@ function question3() {
 }
 
 
-function question4(num, bool){
+function question4(num, bool) {
     console.log(num == bool)
 }
+
+function question5() {
+    console.log('' == false)
+}
+
